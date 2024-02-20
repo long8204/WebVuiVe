@@ -1,0 +1,49 @@
+// Custom ul li list
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  li {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+}
+// Custom input
+input:focus {
+  outline: none;
+}
+// Custom text tags
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+/* Targeting the input during autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  /* Prevent background color change */
+  -webkit-text-fill-color: [your text color] !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+/* For Firefox */
+input:-moz-autofill,
+input:-moz-autofill:hover,
+input:-moz-autofill:focus,
+input:-moz-autofill:active {
+  background-color: white !important;
+}
