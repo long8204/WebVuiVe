@@ -5,12 +5,11 @@
     </div>
     <div class="container intro">
       <div class="intro-text">
-        <p> Chẳng có ai thích cái gì XẤU cả</p>
-        <p> KHÁCH HÀNG CỦA BẠN lại càng không!</p>
-        <p> Hãy để</p>
-        <p> Thiết kế Website THẬT ĐẸP</p>
-        <p> TẠO RA TIỀN cho BẠN!
-        </p>
+        <h3>Chẳng có ai thích cái gì XẤU cả,<br>
+          KHÁCH HÀNG CỦA BẠN lại càng không!</h3>
+        <h1>Hãy để 😀 VUI VẺ<br>
+          Thiết kế Website THẬT ĐẸP<br>
+          TẠO RA TIỀN cho BẠN!</h1>
       </div>
       <div class="customer-contact-form">
         <div class="customer-contact-form-header">
