@@ -8,8 +8,9 @@
         <h3>Chẳng có ai thích cái gì XẤU cả,<br>
           KHÁCH HÀNG CỦA BẠN lại càng không!</h3>
         <h1>Hãy để 😀 VUI VẺ<br>
-          Thiết kế Website THẬT ĐẸP<br>
-          TẠO RA TIỀN cho BẠN!</h1>
+          Thiết kế Website <span class="border-1">THẬT ĐẸP</span><br>
+          <span class="border-2">TẠO THƯƠNG HIỆU</span> cho BẠN!
+        </h1>
       </div>
       <div class="customer-contact-form">
         <div class="customer-contact-form-header">
