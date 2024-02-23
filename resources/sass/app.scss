@@ -1,26 +1,6 @@
 @import "bootstrap/scss/bootstrap";
 @import "root";
 @import "animation";
-.main {
-  z-index: 1;
-  .content {
-    position: relative;
-    height: 80vh;
-    width: 100vw;
-    @import "intro";
-    .background {
-      z-index: -1;
-      height: 100%;
-      width: 100%;
-      background-image: url("/images/intro-sticky-mask.png");
-      background: linear-gradient(180deg, #48097a 0, #2b0649 100%);
-      position: absolute;
-      top: 0;
-      left: 0;
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
-}
+
+@import "intro";
+@import "banner";

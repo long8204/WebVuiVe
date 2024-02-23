@@ -1,19 +1,41 @@
+.main {
+  z-index: 1;
+  .content {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    .background {
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      background-image: url("/images/intro-sticky-mask.png");
+      background: linear-gradient(180deg, #48097a 0, #2b0649 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
 .intro {
   z-index: 2;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   height: 100%;
   .intro-text {
     color: white;
+    padding-top: 20px;
     h3 {
-      padding-bottom: 20px;
+      padding-bottom: 10px;
       line-height: 1.5;
     }
     h1 {
-      line-height: 1.3;
+      line-height: 1.5;
     }
+  }
+  video {
+    padding-bottom: 20px;
   }
   .customer-contact-form {
     display: flex;
@@ -21,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: fit-content;
     width: 450px;
     background-color: white;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -63,13 +86,17 @@
         text-align: left;
         .btn-img {
           img {
-            height: 100px;
+            height: 80px;
             width: auto;
+            margin-left: -10px;
           }
         }
         .btn-text {
           h4 {
-            color: orange;
+            color: #fcc100;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
           }
           p {
             padding-top: 4px;
